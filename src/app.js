@@ -97,6 +97,6 @@ const routes=require("./routes/main")
 const urlencoded = require("body-parser/lib/types/urlencoded")
 app.use("/",routes)
 
-app.listen(process.env.PORT|6969,()=>{
+app.listen(process.env.PORT|6060,()=>{
     console.log("server started")
 })
